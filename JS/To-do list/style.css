@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    height: 100%;
+    background-image: linear-gradient( rgb(255, 225, 169), #ffffbb);
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+input{
+    font-family: 'Kalam', cursive;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin: 5px;
+}
+#botao{
+    background-color: rgb(244, 176, 127);
+    width: 80px;
+    padding-top: 3px;
+}
+:checked + label{
+    color: rgb(95, 95, 95);
+    font-family: 'Kalam', cursive;
+    text-decoration: line-through;
+}
+h1{
+    font-family: 'Dancing Script';
+}
+#lista{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }

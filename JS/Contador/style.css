@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#e6d7ff , #ffcdff);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+button{
+    border-radius: 100%;
+    border: none;
+    background-color: #ffa7ff;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+button:hover{
+
+    background-color: #ffc3ff;
+}
